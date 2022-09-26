@@ -1,0 +1,29 @@
+@import "../../../App.scss";
+
+.desktop-header {
+  position: fixed;
+  left: 50%;
+  top: 30px;
+  transform: translate(-50%, 0);
+  width: 95vw;
+  height: 80px !important;
+  border-radius: 50px;
+  padding: 0 40px;
+  z-index: 10000;
+  background: $gray-12;
+  color: $gray-1;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: $gray-1;
+
+  &__logo {
+    height: 80%;
+    margin-right: 50px;
+  }
+
+  &__menu {
+    margin-right: 30px;
+  }
+}

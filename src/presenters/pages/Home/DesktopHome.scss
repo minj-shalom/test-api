@@ -1,0 +1,43 @@
+@import "../../../App.scss";
+
+.home {
+  display: flex;
+
+  &__contents {
+    width: 60%;
+    padding: 30px 0 0 50px;
+
+    &__logo {
+      width: 90%;
+      margin: 0 0 -20px -30px;
+    }
+
+    &__subtitle {
+      color: $gray-1;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+    }
+
+    &__button {
+      margin-top: 30px;
+      font-size: 18px;
+      font-weight: 500;
+      background: $green-6;
+      color: $gray-1 !important;
+      border: none;
+      padding: 7px 15px;
+      border-radius: 3px;
+      cursor: pointer;
+
+      &:hover,
+      &:focus &::after {
+        background: $green-5 !important;
+      }
+    }
+  }
+
+  &__icon {
+    width: 40%;
+  }
+}

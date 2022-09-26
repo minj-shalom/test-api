@@ -1,0 +1,8 @@
+@import "../../../App.scss";
+
+.desktop-footer {
+  padding: 24px !important;
+  background: $gray-12;
+  display: flex;
+  justify-content: space-between;
+}
